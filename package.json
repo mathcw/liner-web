@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=production next start -p $PORT"
+    "start": "NODE_ENV=production next start -p 8020"
   },
   "keywords": [],
   "author": "",
