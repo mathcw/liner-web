@@ -409,40 +409,7 @@ export default function Blog() {
           </div>
         </div>
         {/* 底部 */}
-        <div className="bottom_row">
-          <div className="trademark">
-            <span className="bottom_titleone">TRADEMARK</span>
-            <span className="bottom_content">班达尼T.Chabangtigo亚兰路324号9400</span>
-            <span className="bottom_content">+66 28 878 5452</span>
-            <span className="bottom_content">+66 2 547 2223</span>
-            <span className="bottom_content">support@tourpacker.com</span>
-            <span className="bottom_content">©版权所有2016 Tour Packer。版权所有</span>
-          </div>
-          <div className="trademark">
-            <span className="bottom_title">关于我们</span>
-            <span className="bottom_content">为什么是我们</span>
-            <span className="bottom_content">为什么旅行</span>
-            <span className="bottom_content">评论</span>
-            <span className="bottom_content">旅游保险</span>
-            <span className="bottom_content">程序</span>
-          </div>
-          <div className="trademark">
-            <span className="bottom_title">客户服务</span>
-            <span className="bottom_content">付款</span>
-            <span className="bottom_content">反馈</span>
-            <span className="bottom_content">联系我们</span>
-            <span className="bottom_content">旅游咨询</span>
-            <span className="bottom_content">常见问题</span>
-          </div>
-          <div className="trademark">
-            <span className="bottom_title">其他</span>
-            <span className="bottom_content">目的地</span>
-            <span className="bottom_content">博客</span>
-            <span className="bottom_content">出发前计划</span>
-            <span className="bottom_content">签证</span>
-            <span className="bottom_content">保险</span>
-          </div>
-        </div>
+        
       </div>
 
     </Layout>

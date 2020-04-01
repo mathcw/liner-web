@@ -151,6 +151,7 @@ body{
     flex-direction: column;
     top: 8%;
     left: 6%;
+    width: 100%;
 }
 
 .row .content .chunk .cp1{
@@ -243,7 +244,6 @@ body{
     background-image: url('/bottom_backgroud.png');
     background-size: 100% 100%;
     display: flex;
-    margin-top: 5%;
     padding: 7% 17% 7% 10%;
     justify-content: space-between;
 }
