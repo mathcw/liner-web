@@ -62,7 +62,7 @@ export default (props) => {
                     <span className="bottom_content">程序</span>
                 </div>
                 <div className="trademark">
-                    <span className="bottom_title">客户服务</span>
+                    <span className="bottom_title">客户服务1</span>
                     <span className="bottom_content">付款</span>
                     <span className="bottom_content">反馈</span>
                     <span className="bottom_content">联系我们</span>
