@@ -21,10 +21,10 @@ export default (props) => {
                     style={{ border: '0', width: '70%' }}
                 >
                     <Menu.Item key="1" ><Link href="/index"><a>首页</a></Link></Menu.Item>
-                    <Menu.Item key="2"><Link href="/about"><a>全部航线</a></Link></Menu.Item>
-                    <Menu.Item key="3">床票套餐</Menu.Item>
-                    <Menu.Item key="4">邮轮公司</Menu.Item>
-                    <Menu.Item key="3">目的地</Menu.Item>
+                    <Menu.Item key="2"><Link href="/route"><a>全部航线</a></Link></Menu.Item>
+                    <Menu.Item key="3"><Link href="/ticket"><a>船票套餐</a></Link></Menu.Item>
+                    <Menu.Item key="4"><Link href="/cruise"><a>邮轮公司</a></Link></Menu.Item>
+                    <Menu.Item key="5"><Link href="/bourn"><a>目的地</a></Link></Menu.Item>
                 </Menu>
                 <div style={{ height: '3rem', width: '30%', display: 'flex', alignItems: 'center', background: '#fff', lineHeight: '3rem' }}>
                     <div style={{ position: 'absolute' }}>
@@ -62,7 +62,7 @@ export default (props) => {
                     <span className="bottom_content">程序</span>
                 </div>
                 <div className="trademark">
-                    <span className="bottom_title">客户服务1</span>
+                    <span className="bottom_title">客户服务</span>
                     <span className="bottom_content">付款</span>
                     <span className="bottom_content">反馈</span>
                     <span className="bottom_content">联系我们</span>
