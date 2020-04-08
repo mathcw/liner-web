@@ -1,0 +1,9 @@
+
+.route_detail_content .right_content .row {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.65);
+    line-height: 40px;
+    height: 40px;
+    padding-left: 15px;
+}

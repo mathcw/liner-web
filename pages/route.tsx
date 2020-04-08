@@ -113,6 +113,8 @@ export default function about() {
             <div className="row" style={{ marginTop: '-30px' }}>
               <div className="content" style={{ padding: '0' }}>
                 <div className="chunk">
+                  <Link href="/route_details">
+                    <a>
                       <div className="top">
                         <img src={'/pic.png'} />
                         <div className="cp">
@@ -131,46 +133,48 @@ export default function about() {
                           <span className="buck">￥2600</span>
                         </div>
                       </div>
+                    </a>
+                  </Link>
                 </div>
                 <div className="chunk">
-                      <div className="top">
-                        <img src={'/pic.png'} />
-                        <div className="cp">
-                          <span className="time">4天3夜</span>
-                        </div>
+                  <div className="top">
+                    <img src={'/pic.png'} />
+                    <div className="cp">
+                      <span className="time">4天3夜</span>
+                    </div>
+                  </div>
+                  <div className="bottom">
+                    <div>
+                      <span className="adress">恋爱中的巴黎</span>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', position: 'relative', marginTop: '5px' }}>
+                      <div style={{ display: 'flex' }}>
+                        <Rate style={{ color: '#76C8E6', fontSize: '15px' }} allowHalf disabled defaultValue={2.5} />
+                        <span className="star">2.5星</span>
                       </div>
-                      <div className="bottom">
-                        <div>
-                          <span className="adress">恋爱中的巴黎</span>
-                        </div>
-                        <div style={{ display: 'flex', alignItems: 'center', position: 'relative', marginTop: '5px' }}>
-                          <div style={{ display: 'flex' }}>
-                            <Rate style={{ color: '#76C8E6', fontSize: '15px' }} allowHalf disabled defaultValue={2.5} />
-                            <span className="star">2.5星</span>
-                          </div>
-                          <span className="buck">￥2600</span>
-                        </div>
-                      </div>
+                      <span className="buck">￥2600</span>
+                    </div>
+                  </div>
                 </div>
                 <div className="chunk">
-                      <div className="top">
-                        <img src={'/pic.png'} />
-                        <div className="cp">
-                          <span className="time">4天3夜</span>
-                        </div>
+                  <div className="top">
+                    <img src={'/pic.png'} />
+                    <div className="cp">
+                      <span className="time">4天3夜</span>
+                    </div>
+                  </div>
+                  <div className="bottom">
+                    <div>
+                      <span className="adress">恋爱中的巴黎</span>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', position: 'relative', marginTop: '5px' }}>
+                      <div style={{ display: 'flex' }}>
+                        <Rate style={{ color: '#76C8E6', fontSize: '15px' }} allowHalf disabled defaultValue={2.5} />
+                        <span className="star">2.5星</span>
                       </div>
-                      <div className="bottom">
-                        <div>
-                          <span className="adress">恋爱中的巴黎</span>
-                        </div>
-                        <div style={{ display: 'flex', alignItems: 'center', position: 'relative', marginTop: '5px' }}>
-                          <div style={{ display: 'flex' }}>
-                            <Rate style={{ color: '#76C8E6', fontSize: '15px' }} allowHalf disabled defaultValue={2.5} />
-                            <span className="star">2.5星</span>
-                          </div>
-                          <span className="buck">￥2600</span>
-                        </div>
-                      </div>
+                      <span className="buck">￥2600</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

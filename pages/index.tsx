@@ -12,7 +12,9 @@ export default function Blog() {
       <div>
         {/* 顶部搜索 */}
         <div style={{ position: 'relative' }}>
-          <div className='top_back'></div>
+          <div className='top_back'>
+            <img src="/background.png" />
+          </div>
           <div className="top_vague"></div>
           <div className="container">
             <div className="top_title">与永恒号一起游览大海</div>
@@ -183,7 +185,7 @@ export default function Blog() {
               </Link>
             </div>
           </div>
-          <div style={{marginTop:'15px'}} className="content">
+          <div style={{ marginTop: '15px' }} className="content">
             <div className="chunk">
               <Link href="">
                 <a>
@@ -409,7 +411,7 @@ export default function Blog() {
           </div>
         </div>
         {/* 底部 */}
-        
+
       </div>
 
     </Layout>
